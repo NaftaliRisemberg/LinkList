@@ -10,10 +10,9 @@ namespace LinkList
     public class Node
     {
         public int Data;
+        public Node Next;
         public int GetValue () { return Data; }
         public void SetValue (int value) {Data = value; }
-       
-        public Node Next;
         public Node GetNext () { return Next; }
         public void SetNext (Node value) {Next = value;}
 
@@ -24,3 +23,5 @@ namespace LinkList
         }
     }
 }
+       
+        
