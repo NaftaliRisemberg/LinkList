@@ -129,7 +129,7 @@
 //	}
 using System;
 
-namespace LinkList
+namespace DataStructures
 {
     class Program
     {
